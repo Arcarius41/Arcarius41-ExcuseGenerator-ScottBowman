@@ -15,10 +15,10 @@ window.onload = () => {
 
 let generateExcuse = () => {
   let pronoun = ["A", "The"];
-  let subject = ["jogger", "comedian", "alien", "walrus", "scientist"];
-  let action = ["bit my", "threw my", "ate my", "cloned my", "took my"];
-  let thing = ["foot", "homework", "phone", "car"];
-  let where = ["in my house", "in the lab", "in my drivway", "at the park"];
+  let subject = ["jogger", "comedian", "alien", "walrus", "scientist","super villian"];
+  let action = ["bit my", "threw my", "ate my", "cloned my", "took my", "exploded my"];
+  let thing = ["foot", "homework", "phone", "car", "glider"];
+  let where = ["in my house", "in the lab", "in my drivway", "at the park", "in Atlantis"];
 
   let pronounIndex = Math.floor(Math.random() * pronoun.length);
   let subjectIndex = Math.floor(Math.random() * subject.length);
